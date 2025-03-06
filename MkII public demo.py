@@ -1,0 +1,120 @@
+import math as mth
+print("Mark II, versão 1.50.2")
+print("Criado por Rutheford")
+
+print ("o que você gostaria de fazer?")
+A= float(input("numero:"))
+B= float(input("numero:"))
+Soma = A + B
+print ("resultado A + B=", Soma)
+Subtração= float(input("numero para subtrair:"))
+print("Novo resultado=", Soma - Subtração)
+Y = Soma - Subtração
+multiplicação = float(input("Número para multiplicar:"))
+print ("Resultado da Multiplicação=", Y * multiplicação)
+Z = Y * multiplicação
+Divisão = float(input("Digite o número para dividir"))
+print ("Resultado da divisão=", Z/Divisão)
+Divisãodecimal = print ("Resultado da divisão=",Z//Divisão)
+Módulo = float(input("número gerador do módulo"))
+print ("Resultado do módulo=", 1 %(Z/Divisão))
+V = Z/Divisão
+Exponencial = float(input("Digite o número para potência")) 
+print ("Resultado da potenciação=", V** Exponencial)
+G = V** Exponencial
+Raizquadradaa = print ("Resultado da raiz=", G**(1/2))
+raizquadradaB = mth.sqrt(B)
+print ("Sua raiz quadrada=", raizquadradaB)
+
+
+print ("Preparando modo binário/Octal/hexadecimal:")
+print ("Modo binário/octal/hexadecimal. Version 1.0")
+b= int(input("Escolha a base numérica (2,8,16): "))
+x1=int(input("digito boh: "))
+if x1 >15 :
+    exit()
+if b == 2 and x1 >1:
+ exit()  
+if b == 8 and x1 >8:
+   exit()  
+x2= int(input("digito boh: "))
+if x2 > 15:
+    exit()
+if b == 2 and x2 >1:
+ exit()
+if b == 8 and x2 >8:
+   exit()  
+x3= int(input("digito boh: "))
+if x3 > 15:
+    exit()
+if b == 8 and x3 >8:
+   exit()  
+if b == 2 and x3 >1:
+ exit()  
+x4= int(input("digito boh: "))
+if x4 > 15:
+    exit()
+if b == 2 and x4 >1:
+ exit()
+if b == 8 and x4 >8:
+   exit()         
+x5= int(input("digito boh: "))
+if x5 > 15:
+    exit()
+if b == 2 and x5 >1:
+ exit()
+if b == 8 and x5 >8:
+   exit()    
+x6= int(input("digito boh: "))
+if x6 > 15:
+    exit()
+if b == 8 and x6 >8:
+   exit()  
+if b == 2 and x6 >1:
+ exit()  
+x7= int(input("digito boh: "))
+if x7 > 15:
+    exit()
+if b == 2 and x7 >1:
+ exit()
+if b == 8 and x7 >8:
+   exit()     
+x8= int(input("digito boh: "))
+if x8 > 15 :
+    exit()
+if b == 2 and x8 >1:
+    exit()
+if b == 8 and x8 >8:
+   exit()    
+x9= int(input("digito boh: "))
+if x9 >15:
+    exit()
+if b == 8 and x9 >8:
+   exit()  
+if b == 2 and x9 >1:
+ exit()   
+x10= int(input("digito boh: "))
+if x10 > 15:
+    exit()
+if b == 2 and x10 >1:
+    exit()
+if b == 8 and x10 >8:
+   exit()        
+x11= int(input("digito boh: "))
+if x11 > 15:
+ exit()
+if b == 2 and x11 >1:
+ exit()
+if b == 8 and x11 >8:
+   exit()    
+x12= int(input("digito boh: "))
+if x12 > 15:
+ exit()
+if b == 2 and x12 >1:
+ exit()
+if b == 8 and x12 >8:
+   exit()    
+X=x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12
+Total= ('resposta')
+Total = (mth.pow(b,12-1)*x1) +(mth.pow(b,12-2) *x2)+(mth.pow(b,12-3) *x3)+(mth.pow(b,12-4) *x4)+(mth.pow(b,12-5) *x5)+(mth.pow(b,12-6) *x6)+(mth.pow(b,12-7) *x7)+(mth.pow(b,12-8) *x8)+(mth.pow(b,12-9) *x9)+(mth.pow(b,12-10) *x10)+(mth.pow(b,12-11) *x11)+(mth.pow(b,12-12) *x12)
+print (f"Aqui está seu número:{Total}, em base 10. Originalmente estava na base {b}, como {X}")
